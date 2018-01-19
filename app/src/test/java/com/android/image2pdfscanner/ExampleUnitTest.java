@@ -1,4 +1,4 @@
-package com.android.galleryexample;
+package com.android.image2pdfscanner;
 
 import org.junit.Test;
 

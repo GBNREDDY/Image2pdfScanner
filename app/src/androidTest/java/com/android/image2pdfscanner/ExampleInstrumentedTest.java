@@ -1,4 +1,4 @@
-package com.android.galleryexample;
+package com.android.image2pdfscanner;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

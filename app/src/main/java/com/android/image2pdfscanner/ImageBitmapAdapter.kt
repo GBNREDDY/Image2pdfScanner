@@ -1,9 +1,7 @@
-package com.android.galleryexample
+package com.android.image2pdfscanner
 
 import android.annotation.SuppressLint
-import android.content.Context
 import android.graphics.Bitmap
-import android.support.design.widget.BottomSheetDialog
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -12,7 +10,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.app.Dialog
 import android.support.v7.widget.PopupMenu
-import android.widget.Button
 
 
 class ImageBitmapAdapter(private var context: MainActivity, private var inflater: LayoutInflater, private var bitmapMap: ArrayList<Bitmap>?) : RecyclerView.Adapter<ImageBitmapAdapter.ItemHolder>() {
