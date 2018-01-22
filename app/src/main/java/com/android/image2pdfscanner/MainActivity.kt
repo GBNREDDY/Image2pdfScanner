@@ -166,6 +166,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         recycler.setHasFixedSize(true)
         recycler.layoutManager = GridLayoutManager(this, 2)
         recycler.adapter = ImageBitmapAdapter(this, layoutInflater, bitmapMap)
+        recycler.smoothScrollToPosition(bitmapMap!!.size-1)
     }
 
 
